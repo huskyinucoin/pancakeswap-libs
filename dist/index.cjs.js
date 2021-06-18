@@ -2125,7 +2125,7 @@ var Logo$1 = function (_a) {
         React__default['default'].createElement(Logo, { className: "desktop-icon", isDark: isDark })));
     return (React__default['default'].createElement(Flex, null,
         React__default['default'].createElement(MenuButton, { "aria-label": "Toggle menu", onClick: togglePush, mr: "14px" }, isPushed ? (React__default['default'].createElement(Icon$M, { width: "24px", color: "textSubtle" })) : (React__default['default'].createElement(Icon$L, { width: "24px", color: "textSubtle" }))),
-        isAbsoluteUrl ? (React__default['default'].createElement(StyledLink$1, { as: "a", href: href, "aria-label": "Panther home page" }, innerLogo)) : (React__default['default'].createElement(StyledLink$1, { to: href, "aria-label": "Panther home page" }, innerLogo))));
+        isAbsoluteUrl ? (React__default['default'].createElement(StyledLink$1, { as: "a", href: href, "aria-label": "HuskyINU home page" }, innerLogo)) : (React__default['default'].createElement(StyledLink$1, { to: href, "aria-label": "HuskyINU home page" }, innerLogo))));
 };
 var templateObject_1$y;
 
@@ -2190,19 +2190,19 @@ var links = [
         items: [
             {
                 label: "Overview",
-                href: "https://pantherswap.info",
+                href: "https://huskyinu.net",
             },
             {
                 label: "Tokens",
-                href: "https://pantherswap.info/tokens",
+                href: "https://pancakeswap.com/tokens",
             },
             {
                 label: "Pairs",
-                href: "https://pantherswap.info/pairs",
+                href: "https://pancakeswap.com/pairs",
             },
             {
                 label: "Accounts",
-                href: "https://pantherswap.info/accounts",
+                href: "https://huskyinu.net/accounts",
             },
         ],
     },
@@ -2226,19 +2226,19 @@ var links = [
         items: [
             {
                 label: "Voting",
-                href: "https://voting.pantherswap.com",
+                href: "https://huskyinu.net/voting",
             },
             {
                 label: "Github",
-                href: "https://github.com/pancakeswap",
+                href: "https://github.com/huskyinucoin",
             },
             {
                 label: "Docs",
-                href: "https://docs.pantherswap.com",
+                href: "https://huskyinu.net/docs",
             },
             {
                 label: "Blog",
-                href: "https://pantherswap.medium.com",
+                href: "https://huskyinu.medium.com",
             },
         ],
     },
@@ -2247,22 +2247,22 @@ var socials = [
     {
         label: "Github",
         icon: "GithubIcon",
-        href: "https://github.com/pantherswap",
+        href: "https://github.com/huskyinucoin",
     },
     {
         label: "Docs",
         icon: "GitbookIcon",
-        href: "https://docs.pantherswap.com",
+        href: "https://huskyinu.net/docs",
     },
     {
         label: "Medium",
         icon: "MediumIcon",
-        href: "https://pantherswap.medium.com",
+        href: "https://huskyinu.medium.com",
     },
     {
         label: "Twitter",
         icon: "TwitterIcon",
-        href: "https://twitter.com/PantherSwap",
+        href: "https://twitter.com/huskyinucoin",
     },
     {
         label: "Telegram",
@@ -2270,11 +2270,16 @@ var socials = [
         items: [
             {
                 label: "English",
-                href: "https://t.me/PantherSwap",
+                href: "https://t.me/HuskyINUGlobal",
             },
             {
+                label: "Turkish",
+                href: "https://t.me/HuskyINUGlobalTurkiye",
+            },
+            
+            {
                 label: "Announcements",
-                href: "https://t.me/PantherSwapAnn",
+                href: "https://t.me/huskyinuann",
             },
         ],
     },
@@ -2592,7 +2597,7 @@ var ConnectModal = function (_a) {
     var login = _a.login, _b = _a.onDismiss, onDismiss = _b === void 0 ? function () { return null; } : _b;
     return (React__default['default'].createElement(Modal, { title: "Connect to a wallet", onDismiss: onDismiss },
         connectors.map(function (entry, index) { return (React__default['default'].createElement(WalletCard, { key: entry.title, login: login, walletConfig: entry, onDismiss: onDismiss, mb: index < connectors.length - 1 ? "8px" : "0" })); }),
-        React__default['default'].createElement(HelpLink, { href: "https://docs.pantherswap.com/guides/faq#how-do-i-set-up-my-wallet-on-binance-smart-chain", external: true },
+        React__default['default'].createElement(HelpLink, { href: "https://huskyinu.net/help", external: true },
             React__default['default'].createElement(Icon$o, { color: "primary", mr: "6px" }),
             "Learn how to connect")));
 };
